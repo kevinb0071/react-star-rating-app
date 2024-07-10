@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       {/* Star Rating Component */}
-      <StarRating />
+      <StarRating noOfStars={10} />
     </div>
   );
 }
